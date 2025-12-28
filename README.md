@@ -1,3 +1,4 @@
+[![Packagist](https://img.shields.io/packagist/v/magestyapps/module-disable-2fa.svg)](https://packagist.org/packages/magestyapps/module-disable-2fa)
 # Magento 2 Disable Two-Factor Authentication Module
 
 ## Overview
