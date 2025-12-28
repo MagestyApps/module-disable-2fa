@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="adminhtml_block_html_before">
+        <observer name="magestyapps-add-disable-2fa-field" instance="MagestyApps\Disable2FA\Observer\AddUserFormField" />
+    </event>
+</config>
