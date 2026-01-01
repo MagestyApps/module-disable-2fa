@@ -35,7 +35,7 @@ class Disable2FA extends Command
     public function __construct(
         UserFactory $userFactory,
         UserResource $userResource,
-        string $name = null
+        ?string $name = null
     ) {
         $this->userFactory = $userFactory;
         $this->userResource = $userResource;
